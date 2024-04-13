@@ -577,12 +577,16 @@ margin-bottom: 16px;
     margin-left:80px;
 
 }
+.subscription-form{
+display:flex;
+}
 .subscription-paragraph{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom:16px;
 }
 .email-input{
     border: 1px solid #fff;
@@ -591,8 +595,8 @@ margin-bottom: 16px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #2e2f42;
-    margin-top:16px;
-    margin-right:24px;
+    
+    
     color:#fff;
 }
 .email-input::placeholder{
@@ -604,13 +608,15 @@ color: #fff;
 padding:8px 212px 8px 16px;
 }
 .footer-button{
-    display:inline-flex;
+    margin-left:16px;
+    display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 16px;
-   
-    width: 165px;
+    border: none;
+    border-radius: 4px;
+    min-width: 165px; 
     height: 40px;
     background-color: #4d5ae5;
     font-weight: 500;
