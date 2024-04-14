@@ -834,7 +834,7 @@ color: rgba(46, 47, 66, 0.4);
     margin-left: 16px;
 }
 
-.checkbox-input:checked + .checkbox-span{
+.checkbox-input:checked + .privacy-policy span{
     background-color: #404bbf;
     border:none;
     fill:#f4f4fd;
